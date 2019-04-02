@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
         <!-- Custom CSS -->
-        <link rel="stylesheet" type="text/css" href="../css/styles.css">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
 
         <!-- Favicons -->
         <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
@@ -88,7 +88,7 @@
           <h1>Upcoming Event:</h1>
           <h2>Don't miss it!</h2>
           <hr>
-          <h1 id="next-event"></h1>
+          <a href="events/"><h1 id="next-event"></h1></a>
         </div>
 
         <!-- Page Content -->
@@ -184,7 +184,7 @@
                 .then(function(response) {
                         // Handle the results here (response.result has the parsed body).
                         var ret = "";
-                        // console.log("Response", response['result']['items']);
+                        console.log("Response", response['result']['items']);
                         for (var i = 0; i < response['result']['items'].length; i++) { 
                           // console.log("Event name:", response['result']['items'][i]['summary']);
                           // console.log("Event name:", response['result']['items'][i]['start']['dateTime']);
