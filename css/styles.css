@@ -4,6 +4,12 @@
     line-height: 1.75em;
 }
 
+#content-members {
+    padding: 3em 0em;
+    font-size: 1.25em;
+    line-height: 1.75em;
+}
+
 .navbar {
     padding: 1.5em 4em;
 }
@@ -30,6 +36,14 @@
     font-size: 2.5em;
 }
 
+#content-members h1 {
+    /* padding: 1em; */
+    /* padding-left: 4em; */
+    padding-bottom: 1em;
+    font-size: 2.5em;
+    padding-left: 4em;
+}
+
 .intro-banner {
     text-align: center;
     /* The image used */
@@ -47,6 +61,62 @@
     color: white;
     padding-top: 13em;
 }
+
+.closing-banner {
+    text-align: center;
+    /* The image used */
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.6), 
+        rgba(0, 0, 0, 0.6)
+      ), url("../assets/images/bg-image.jpg");
+    /* Set a specific height */
+    min-height: 640px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding-top: 13em;
+}
+
+.closing-banner h1 {
+    font-size: 5em;
+}
+
+.closing-banner h2 {
+    font-size: 4em;
+    color: gray;
+}
+
+.closing-banner hr {
+    /* border: 2px solid blue; */
+}
+
+.closing-banner button {
+    padding: 1em;
+    /* background-color: #f44242; */
+}
+
+#mc_embed_signup {
+    /* background: #fff;  */
+    clear:left; 
+    /* font:14px Helvetica,Arial,sans-serif;  */
+    width:100%;
+}
+
+.btn-custom{color:#fff;background-color:#f44242;border-color:#f44242}
+
+.btn-custom:hover{color:#fff;background-color:#CF2424;border-color:#CF2424}
+.btn-custom:focus,.btn-custom.focus{box-shadow:0 0 0 .2rem rgba(44,96,140,0.5)}
+.btn-custom.disabled,
+.btn-custom:disabled{color:#fff;background-color:#f44242;border-color:#f44242}
+.btn-custom:not(:disabled):not(.disabled):active,
+.btn-custom:not(:disabled):not(.disabled).active,
+.show>.btn-custom.dropdown-toggle{color:#fff;background-color:#f44242;border-color:#000}
+.btn-custom:not(:disabled):not(.disabled):active:focus,
+.btn-custom:not(:disabled):not(.disabled).active:focus,
+.show>.btn-custom.dropdown-toggle:focus{box-shadow:0 0 0 .2rem rgba(44,96,140,0.5)}
 
 .intro-banner h1 {
     font-size: 5em;
@@ -158,6 +228,66 @@
     grid-row-end: 9;
 }
 
+.card img {
+    /* height: 100%; */
+    /* width: auto; */
+}
+
+.fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 230px;
+    width: 230px;
+}
+.fill img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+
+.card-text {
+    /* padding-top: 20px; */
+}
+
+#closing {
+    padding: 2.5em 3em 0.5em 6em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    /* font-weight: 700; */
+    color: black;
+    background-color: #e9ecef;
+}
+
+#closing svg {
+    padding-right: 3px;
+    margin-bottom: 1.5em;
+    height: 18px;
+}
+
+#closing li:hover a {
+    opacity: 1 !important;
+    /* background-color: blue; */
+}
+
+#closing ul {
+    margin-bottom: 0;
+    opacity: 1;
+    transition: opacity .3s ease-out;
+    -moz-transition: opacity .3s ease-out;
+    -webkit-transition: opacity .3s ease-out;
+    -o-transition: opacity .3s ease-out;
+}
+
+#closing ul:hover a {
+    opacity: .2;
+    transition: opacity .3s ease-out;
+    -moz-transition: opacity .3s ease-out;
+    -webkit-transition: opacity .3s ease-out;
+    -o-transition: opacity .3s ease-out;
+}
+
 /* Maria's CSS */
 
 .hero-image {
@@ -215,7 +345,7 @@
 }
 
 .card-deck {
-    width: 50% !important;
+    width: 74% !important;
 }
 
 .members {
