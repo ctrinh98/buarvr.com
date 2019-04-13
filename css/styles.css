@@ -408,3 +408,837 @@
     margin-right: 25px;
 }
   
+@media (max-width: 1024px) {
+
+    #content {
+        padding: 3em 5em;
+        font-size: 1.25em;
+        line-height: 1.75em;
+    }
+    
+    #content-members {
+        padding: 3em 0em;
+        font-size: 1.25em;
+        line-height: 1.75em;
+    }
+
+    .intro-banner {
+        text-align: center;
+        /* The image used */
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.6), 
+            rgba(0, 0, 0, 0.6)
+          ), url("../assets/images/gif_hero.gif");
+        /* Set a specific height */
+        min-height: 640px;
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        padding-top: 16em;
+    }
+
+    .intro-banner h1 {
+        font-size: 4em;
+    }
+    
+    .intro-banner h2 {
+        font-size: 3em;
+        color: gray;
+    }
+
+    .mission {
+        padding: 3em;
+        padding-top: 3em;
+    }
+    
+    .mission h1 {
+        padding: 0em 3em 0em 3em;
+    }
+    
+    .mission h2 {
+        padding: 1em 7em;
+    }
+    
+    .mission ul {
+        font-size: 1.5em;
+        list-style: none;
+        margin-left: 0;
+        padding-left: 8em;
+        text-indent: -2.1em;
+        padding-right: 8em;
+    }
+    
+    .mission ul li {
+        padding-bottom: 1.5em; 
+    }
+    
+    .navbar {
+        padding: 1.5em 4em;
+    }
+    
+    .nav-link {
+        font-size: 1.15em;
+    }
+    
+    .blockquote {
+        padding-top: 1em;
+        font-weight: 700;
+        font-size: 2em;
+        padding-bottom: 0em;
+    }
+    
+    #resources li {
+        font-weight: 700;
+    }
+    
+    #content h1 {
+        /* padding: 1em; */
+        /* padding-left: 4em; */
+        padding-bottom: 1em;
+        font-size: 2.5em;
+    }
+    
+    #content-members h1 {
+        /* padding: 1em; */
+        /* padding-left: 4em; */
+        padding-bottom: 1em;
+        font-size: 2.5em;
+        padding-left: 4em;
+    }
+    
+    
+    
+    .closing-banner {
+        text-align: center;
+        /* The image used */
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.6), 
+            rgba(0, 0, 0, 0.6)
+          ), url("../assets/images/bg-image.jpg");
+        /* Set a specific height */
+        min-height: 640px;
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        padding-top: 13em;
+    }
+    
+    .closing-banner h1 {
+        font-size: 5em;
+    }
+    
+    .closing-banner h2 {
+        font-size: 4em;
+        color: gray;
+    }
+    
+    .closing-banner hr {
+        /* border: 2px solid blue; */
+    }
+    
+    .closing-banner button {
+        padding: 1em;
+        /* background-color: #f44242; */
+    }
+    
+    #mc_embed_signup {
+        /* background: #fff;  */
+        clear:left; 
+        /* font:14px Helvetica,Arial,sans-serif;  */
+        width:100%;
+    }
+    
+    .btn-custom{color:#fff;background-color:#f44242;border-color:#f44242}
+    
+    .btn-custom:hover{color:#fff;background-color:#CF2424;border-color:#CF2424}
+    .btn-custom:focus,.btn-custom.focus{box-shadow:0 0 0 .2rem rgba(44,96,140,0.5)}
+    .btn-custom.disabled,
+    .btn-custom:disabled{color:#fff;background-color:#f44242;border-color:#f44242}
+    .btn-custom:not(:disabled):not(.disabled):active,
+    .btn-custom:not(:disabled):not(.disabled).active,
+    .show>.btn-custom.dropdown-toggle{color:#fff;background-color:#f44242;border-color:#000}
+    .btn-custom:not(:disabled):not(.disabled):active:focus,
+    .btn-custom:not(:disabled):not(.disabled).active:focus,
+    .show>.btn-custom.dropdown-toggle:focus{box-shadow:0 0 0 .2rem rgba(44,96,140,0.5)}
+    
+    
+    
+    .our-next-event {
+        padding: 5em 15em !important;
+        /* border: 5px solid white; */
+        /* border-radius: 10px; */
+        padding: 2em;
+        background: #e9ecef;
+        /* background: blue; */
+    }
+    
+    .our-next-event h1 {
+        /* padding-bottom: 0px; */
+    }
+    
+    .our-next-event h2 {
+        font-style: italic;
+        font-size: 1.5em;
+    }
+    
+    /* Image gallery */
+    
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        /* grid-template-rows: repeat(8, 5vw); */
+        grid-gap: 15px;
+        /* padding: 2em 10em; */
+    }
+    
+    .gallery__img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .gallery__item--0 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+    
+    .gallery__item--1 {
+        grid-column-start: 3;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+    
+    .gallery__item--2 {
+        grid-column-start: 5;
+        grid-column-end: 9;
+        grid-row-start: 1;
+        grid-row-end: 6;
+    }
+    
+    .gallery__item--3 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 3;
+        grid-row-end: 6;
+    }
+    
+    .gallery__item--4 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 6;
+        grid-row-end: 9;
+    }
+    
+    .gallery__item--5 {
+        grid-column-start: 5;
+        grid-column-end: 9;
+        grid-row-start: 6;
+        grid-row-end: 9;
+    }
+    
+    .card img {
+        /* height: 100%; */
+        /* width: auto; */
+    }
+    
+    .fill {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        height: 230px;
+        width: 230px;
+    }
+    .fill img {
+        flex-shrink: 0;
+        min-width: 100%;
+        min-height: 100%
+    }
+    
+    .card-text {
+        /* padding-top: 20px; */
+    }
+    
+    #closing {
+        padding: 2.5em 3em 0.5em 6em;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        /* font-weight: 700; */
+        color: black;
+        background-color: #e9ecef;
+    }
+    
+  
+}
+  
+@media (max-width: 768px) {
+  
+    #content {
+        padding: 3em 5em;
+        font-size: 1.25em;
+        line-height: 1.75em;
+    }
+    
+    #content-members {
+        padding: 3em 0em;
+        font-size: 1.25em;
+        line-height: 1.75em;
+    }
+
+    .intro-banner {
+        text-align: center;
+        /* The image used */
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.6), 
+            rgba(0, 0, 0, 0.6)
+          ), url("../assets/images/gif_hero.gif");
+        /* Set a specific height */
+        min-height: 540px;
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        padding-top: 14em;
+    }
+
+    .intro-banner h1 {
+        font-size: 3em;
+    }
+    
+    .intro-banner h2 {
+        font-size: 2em;
+        color: gray;
+    }
+
+    .mission {
+        padding: 3em;
+        padding-top: 3em;
+    }
+    
+    .mission h1 {
+        padding: 0em 1em 0em 1em;
+    }
+    
+    .mission h2 {
+        padding: 1em 7em;
+    }
+    
+    .mission ul {
+        font-size: 1.5em;
+        list-style: none;
+        margin-left: 0;
+        padding-left: 4em;
+        text-indent: -2.1em;
+        padding-right: 4em;
+    }
+    
+    .mission ul li {
+        padding-bottom: 1.5em; 
+    }
+
+    .our-next-event {
+        padding: 5em 5.5em !important;
+        /* border: 5px solid white; */
+        /* border-radius: 10px; */
+        padding: 2em;
+        background: #e9ecef;
+        /* background: blue; */
+    }
+    
+    .our-next-event h1 {
+        /* padding-bottom: 0px; */
+    }
+    
+    .our-next-event h2 {
+        font-style: italic;
+        font-size: 1.5em;
+    }
+
+    .closing-banner {
+        text-align: center;
+        /* The image used */
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.6), 
+            rgba(0, 0, 0, 0.6)
+          ), url("../assets/images/bg-image.jpg");
+        /* Set a specific height */
+        min-height: 640px;
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        padding-top: 13em;
+    }
+    
+    .closing-banner h1 {
+        font-size: 4em;
+    }
+    
+    .closing-banner h2 {
+        font-size: 4em;
+        color: gray;
+    }
+    
+    .closing-banner hr {
+        /* border: 2px solid blue; */
+    }
+    
+    .closing-banner button {
+        padding: 1em;
+        /* background-color: #f44242; */
+    }
+
+    #mc_embed_signup {
+        /* background: #fff;  */
+        /* clear:left;  */
+        /* font:14px Helvetica,Arial,sans-serif;  */
+        /* width:50%; */
+        /* text-align: center; */
+        padding: 0em 10em;
+    }
+    
+    .navbar {
+        padding: 1.5em 4em;
+    }
+    
+    .nav-link {
+        font-size: 1.15em;
+    }
+    
+    .blockquote {
+        padding-top: 1em;
+        font-weight: 700;
+        font-size: 2em;
+        padding-bottom: 0em;
+    }
+    
+    #resources li {
+        font-weight: 700;
+    }
+    
+    #content h1 {
+        /* padding: 1em; */
+        /* padding-left: 4em; */
+        padding-bottom: 1em;
+        font-size: 2.5em;
+    }
+    
+    #content-members h1 {
+        /* padding: 1em; */
+        /* padding-left: 4em; */
+        padding-bottom: 1em;
+        font-size: 2.5em;
+        padding-left: 4em;
+    }
+    
+    
+    
+    
+    
+    
+    
+    .btn-custom{color:#fff;background-color:#f44242;border-color:#f44242}
+    
+    .btn-custom:hover{color:#fff;background-color:#CF2424;border-color:#CF2424}
+    .btn-custom:focus,.btn-custom.focus{box-shadow:0 0 0 .2rem rgba(44,96,140,0.5)}
+    .btn-custom.disabled,
+    .btn-custom:disabled{color:#fff;background-color:#f44242;border-color:#f44242}
+    .btn-custom:not(:disabled):not(.disabled):active,
+    .btn-custom:not(:disabled):not(.disabled).active,
+    .show>.btn-custom.dropdown-toggle{color:#fff;background-color:#f44242;border-color:#000}
+    .btn-custom:not(:disabled):not(.disabled):active:focus,
+    .btn-custom:not(:disabled):not(.disabled).active:focus,
+    .show>.btn-custom.dropdown-toggle:focus{box-shadow:0 0 0 .2rem rgba(44,96,140,0.5)}
+    
+    
+    /* Image gallery */
+    
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        /* grid-template-rows: repeat(8, 5vw); */
+        grid-gap: 15px;
+        /* padding: 2em 10em; */
+    }
+    
+    .gallery__img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .gallery__item--0 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+    
+    .gallery__item--1 {
+        grid-column-start: 3;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+    
+    .gallery__item--2 {
+        grid-column-start: 5;
+        grid-column-end: 9;
+        grid-row-start: 1;
+        grid-row-end: 6;
+    }
+    
+    .gallery__item--3 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 3;
+        grid-row-end: 6;
+    }
+    
+    .gallery__item--4 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 6;
+        grid-row-end: 9;
+    }
+    
+    .gallery__item--5 {
+        grid-column-start: 5;
+        grid-column-end: 9;
+        grid-row-start: 6;
+        grid-row-end: 9;
+    }
+    
+    .card img {
+        /* height: 100%; */
+        /* width: auto; */
+    }
+    
+    .fill {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        height: 230px;
+        width: 230px;
+    }
+    .fill img {
+        flex-shrink: 0;
+        min-width: 100%;
+        min-height: 100%
+    }
+    
+    .card-text {
+        /* padding-top: 20px; */
+    }
+    
+    #closing {
+        padding: 2.5em 3em 0.5em 6em;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        /* font-weight: 700; */
+        color: black;
+        background-color: #e9ecef;
+    }
+    
+  
+}
+  
+@media (max-width: 610px) {
+  
+    #content {
+        padding: 3em 1em;
+        font-size: 1em;
+        line-height: 1.75em;
+    }
+    
+    #content-members {
+        padding: 3em 0em;
+        font-size: 1.25em;
+        line-height: 1.75em;
+    }
+
+    #content-members h1 {
+        /* padding: 1em; */
+        /* padding-left: 4em; */
+        padding-bottom: 1em;
+        font-size: 2.5em;
+        padding-left: 1em;
+    }
+
+    .navbar {
+        padding: 1em !important;
+    }
+
+    .intro-banner {
+        text-align: center;
+        /* The image used */
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.6), 
+            rgba(0, 0, 0, 0.6)
+          ), url("../assets/images/gif_hero.gif");
+        /* Set a specific height */
+        min-height: 540px;
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        padding-top: 14em;
+    }
+
+    .intro-banner h1 {
+        font-size: 2em;
+    }
+    
+    .intro-banner h2 {
+        font-size: 2em;
+        color: gray;
+    }
+
+    .mission {
+        padding: 1em;
+        padding-top: 2em;
+    }
+    
+    .mission h1 {
+        font-size: 2em;
+        padding: 0em 1em 0em 1em;
+    }
+    
+    .mission h2 {
+        padding: 1em 7em;
+    }
+    
+    .mission ul {
+        font-size: 1.5em;
+        list-style: none;
+        margin-left: 0;
+        padding-left: 4em;
+        text-indent: -2.1em;
+        padding-right: 4em;
+        font-size: 1em;
+    }
+    
+    .mission ul li {
+        padding-bottom: 1.5em; 
+    }
+
+    .our-next-event {
+        padding: 5em 5.5em !important;
+        /* border: 5px solid white; */
+        /* border-radius: 10px; */
+        padding: 2em;
+        background: #e9ecef;
+        /* background: blue; */
+    }
+    
+    .our-next-event h1 {
+        /* padding-bottom: 0px; */
+    }
+    
+    .our-next-event h2 {
+        font-style: italic;
+        font-size: 1.5em;
+    }
+
+    .closing-banner {
+        text-align: center;
+        /* The image used */
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.6), 
+            rgba(0, 0, 0, 0.6)
+          ), url("../assets/images/bg-image.jpg");
+        /* Set a specific height */
+        min-height: 640px;
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        padding-top: 13em;
+    }
+    
+    .closing-banner h1 {
+        font-size: 2em;
+    }
+    
+    .closing-banner h2 {
+        font-size: 4em;
+        color: gray;
+    }
+    
+    .closing-banner hr {
+        /* border: 2px solid blue; */
+    }
+    
+    .closing-banner button {
+        padding: 1em;
+        /* background-color: #f44242; */
+    }
+
+    #mc_embed_signup {
+        /* background: #fff;  */
+        /* clear:left;  */
+        /* font:14px Helvetica,Arial,sans-serif;  */
+        /* width:50%; */
+        /* text-align: center; */
+        padding: 0em 5em;
+    }
+    
+    .navbar {
+        padding: 1.5em 4em;
+    }
+    
+    .nav-link {
+        font-size: 1.15em;
+    }
+    
+    .blockquote {
+        padding-top: 1em;
+        font-weight: 700;
+        font-size: 2em;
+        padding-bottom: 0em;
+    }
+    
+    #resources li {
+        font-weight: 700;
+    }
+    
+    #content h1 {
+        /* padding: 1em; */
+        /* padding-left: 4em; */
+        padding-bottom: 1em;
+        font-size: 2.5em;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .btn-custom{color:#fff;background-color:#f44242;border-color:#f44242}
+    
+    .btn-custom:hover{color:#fff;background-color:#CF2424;border-color:#CF2424}
+    .btn-custom:focus,.btn-custom.focus{box-shadow:0 0 0 .2rem rgba(44,96,140,0.5)}
+    .btn-custom.disabled,
+    .btn-custom:disabled{color:#fff;background-color:#f44242;border-color:#f44242}
+    .btn-custom:not(:disabled):not(.disabled):active,
+    .btn-custom:not(:disabled):not(.disabled).active,
+    .show>.btn-custom.dropdown-toggle{color:#fff;background-color:#f44242;border-color:#000}
+    .btn-custom:not(:disabled):not(.disabled):active:focus,
+    .btn-custom:not(:disabled):not(.disabled).active:focus,
+    .show>.btn-custom.dropdown-toggle:focus{box-shadow:0 0 0 .2rem rgba(44,96,140,0.5)}
+    
+    
+    /* Image gallery */
+    
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        /* grid-template-rows: repeat(8, 5vw); */
+        grid-gap: 15px;
+        /* padding: 2em 10em; */
+    }
+    
+    .gallery__img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .gallery__item--0 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+    
+    .gallery__item--1 {
+        grid-column-start: 3;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+    
+    .gallery__item--2 {
+        grid-column-start: 5;
+        grid-column-end: 9;
+        grid-row-start: 1;
+        grid-row-end: 6;
+    }
+    
+    .gallery__item--3 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 3;
+        grid-row-end: 6;
+    }
+    
+    .gallery__item--4 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 6;
+        grid-row-end: 9;
+    }
+    
+    .gallery__item--5 {
+        grid-column-start: 5;
+        grid-column-end: 9;
+        grid-row-start: 6;
+        grid-row-end: 9;
+    }
+    
+    .card img {
+        /* height: 100%; */
+        /* width: auto; */
+    }
+    
+    .fill {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        height: 230px;
+        width: 230px;
+    }
+    .fill img {
+        flex-shrink: 0;
+        min-width: 100%;
+        min-height: 100%
+    }
+    
+    .card-text {
+        /* padding-top: 20px; */
+    }
+    
+    #closing {
+        padding: 2.5em 3em 0.5em 6em;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        /* font-weight: 700; */
+        color: black;
+        background-color: #e9ecef;
+    }
+    
+  
+}
+  
